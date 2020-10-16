@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import the styled from styled-components library 
+
+// create the styled component Ul of a ul and apply these rules:  display: flex; list-style-type: none;
+// create the styled component Title of an h1 and apply these rules:  text - align: center; color: #d41f1f;
 
 function App() {
   return (
+    // replace the html tags below where necessary with the created styled components 
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <h1>Styled Component!</h1>
+      <p>This is an example of Styled Component</p>
     </div>
   );
 }
